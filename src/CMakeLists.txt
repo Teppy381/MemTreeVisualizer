@@ -3,7 +3,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON) # Generate compile_commands.json (optional
 include(FetchContent)
 
 # Fetch cpp-dump
-FetchContent_Declare(cpp-dump
+FetchContent_Declare(
+    cpp-dump
     GIT_REPOSITORY https://github.com/philip82148/cpp-dump
     GIT_TAG main
 )

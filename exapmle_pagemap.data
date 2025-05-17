@@ -1,0 +1,16 @@
+0x400000           : pfn c1719            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x401000           : pfn c1718            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x402000           : pfn c1717            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x403000           : pfn c1716            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x404000           : pfn c171a            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x405000           : pfn c16ef            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x406000           : pfn 0                soft-dirty 0 file/shared 0 swapped 0 present 0 library /bin/bash
+0x407000           : pfn c171d            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x408000           : pfn 0                soft-dirty 0 file/shared 0 swapped 0 present 0 library /bin/bash
+0x409000           : pfn 0                soft-dirty 0 file/shared 0 swapped 0 present 0 library /bin/bash
+0x40a000           : pfn c153d            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x40b000           : pfn 0                soft-dirty 0 file/shared 0 swapped 0 present 0 library /bin/bash
+0x40c000           : pfn 0                soft-dirty 0 file/shared 0 swapped 0 present 0 library /bin/bash
+0x40d000           : pfn c16b5            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x40e000           : pfn c150a            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
+0x40f000           : pfn c1d5a            soft-dirty 0 file/shared 1 swapped 0 present 1 library /bin/bash
