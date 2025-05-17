@@ -36,8 +36,8 @@ int main()
     {
         sscanf(CurrentLine.c_str(), "%llx : pfn %llx", &VirtualAddress, &PhysicalAddress);
 
-        std::cout << "VirtualAddress: " << std::hex << VirtualAddress << std::endl;
-        std::cout << "PhysicalAddress: " << std::hex << PhysicalAddress << std::endl;
+        // std::cout << "VirtualAddress: " << std::hex << VirtualAddress << std::endl;
+        // std::cout << "PhysicalAddress: " << std::hex << PhysicalAddress << std::endl;
 
         IndexT VPN0 = (VirtualAddress >> 51) & 0x1ff;
         IndexT VPN1 = (VirtualAddress >> 39) & 0x1ff;
@@ -58,5 +58,6 @@ int main()
     }
 
     CPP_DUMP_SET_OPTION(max_depth, 10);
+    CPP_DUMP_SET_OPTION(max_iteration_count, 256);
     cpp_dump(Result | cp::hex());
 }
